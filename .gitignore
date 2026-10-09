@@ -1,0 +1,40 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build output + generated types
+build
+.react-router
+.vite
+*.tsbuildinfo
+
+# Test output
+coverage
+
+# Local env (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# SQLite files (keep data/.gitkeep)
+data/*
+!data/.gitkeep
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editors / OS
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+
+# Local agent settings
+.claude/settings.local.json

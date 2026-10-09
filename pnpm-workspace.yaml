@@ -1,0 +1,5 @@
+allowBuilds:
+  better-sqlite3: false # ships N-API prebuilds; node-gyp not needed
+  esbuild: true
+minimumReleaseAgeExclude:
+  - vite@8.3.4
